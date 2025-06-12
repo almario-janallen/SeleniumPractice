@@ -28,6 +28,12 @@ Basic Java + Selenium project for automation practice.
 - Created classes and objects
 - Implemented methods, constructors, and basic interactions with object properties
 
+### ✅ Day 5: Inheritance and Polymorphism
+- Created a base Vehicle class and extended it with a Car subclass
+- Used super to call the superclass constructor and override methods
+- Demonstrated runtime polymorphism using a Vehicle array containing different object types
+- Practiced method overriding and object-oriented design principles
+
 ## How to Run
 
 1. Clone this repo  
