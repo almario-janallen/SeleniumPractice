@@ -34,6 +34,11 @@ Basic Java + Selenium project for automation practice.
 - Introduced exception handling using try-catch-finally
 - Created and used custom exceptions for realistic QA scenarios
 
+### ✅ Day 7: File I/O with QA Context
+- Read test case results from a file using BufferedReader
+- Wrote a test summary report and logged errors using BufferedWriter
+- Integrated custom exceptions for input validation (e.g., InvalidTestResultException)
+
 ## How to Run
 
 1. Clone this repo  

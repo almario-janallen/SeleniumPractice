@@ -1,4 +1,4 @@
-package com.selenium.practice.qa;
+package com.selenium.practice.qa.TestCaseManager;
 
 public class TestCaseDemo {
     public static void main(String[] args) {

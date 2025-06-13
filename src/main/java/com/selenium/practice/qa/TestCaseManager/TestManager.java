@@ -1,4 +1,4 @@
-package com.selenium.practice.qa;
+package com.selenium.practice.qa.TestCaseManager;
 import java.util.ArrayList;
 
 public class TestManager {
