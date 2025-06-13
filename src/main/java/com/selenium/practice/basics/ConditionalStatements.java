@@ -1,4 +1,4 @@
-/*
+package com.selenium.practice.basics;/*
 Write a Java program that prints numbers from 1 to 20.
     Print "Fizz" if divisible by 3
     Print "Fuzz" if divisible by 5

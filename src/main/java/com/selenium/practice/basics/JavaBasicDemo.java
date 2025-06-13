@@ -1,4 +1,4 @@
-/*
+package com.selenium.practice.basics;/*
 Write code that:
     Declares and prints all basic data types
     Uses arithmetic and logical operators

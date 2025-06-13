@@ -1,0 +1,30 @@
+🔍 Challenge: Test Case Manager
+🧪 Scenario:
+    You’re building a simple Java tool to manage test cases for a QA project. Each test case has a name and a status ("pass", "fail", or "blocked").
+    You want to be able to:
+        Add test cases to a list
+        Update a test case’s status
+        Print all test cases
+        Throw a custom exception if someone tries to update a status to an invalid value or tries to update a test case that doesn't exist.
+
+📝 Requirements:
+    1. Create a TestCase class:
+        Fields: String name, String status
+        Method: void updateStatus(String newStatus)
+        Only allow "pass", "fail", or "blocked"
+        Throw a custom exception (e.g., InvalidStatusException) for invalid status values.
+
+    2. Create a TestManager class:
+        Uses an ArrayList<TestCase> to store test cases
+        Method: void updateTestStatus(String testName, String newStatus)
+        Find test case by name and update status
+        If not found, throw a custom exception (e.g., TestCaseNotFoundException)
+
+    3. In main(), demonstrate:
+        Adding a few test cases
+        Printing all test cases
+        Updating statuses (some valid, some invalid — show exception handling)
+
+💡 Bonus:
+    Try using .remove() to delete a test case and print the updated list
+    Experiment with using .contains() or streams to search
