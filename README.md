@@ -2,12 +2,6 @@
 
 Basic Java + Selenium project for automation practice.
 
-## ✅ Day 1 – First Selenium Test
-
-- ✔ Installed Java, Maven, IntelliJ, and ChromeDriver
-- ✔ Created Maven project: `SeleniumPractice`
-- ✔ Ran a basic Selenium test to open a browser and fetch the page title
-
 ### 🔗 Tech Stack
 - Java 17+
 - Maven
