@@ -34,6 +34,12 @@ Basic Java + Selenium project for automation practice.
 - Demonstrated runtime polymorphism using a Vehicle array containing different object types
 - Practiced method overriding and object-oriented design principles
 
+### ✅ Day 6: Collections & Exception Handling
+- Learned how to use ArrayList and the differences between arrays and ArrayList
+- Practiced removing elements and handling reindexing
+- Introduced exception handling using try-catch-finally
+- Created and used custom exceptions for realistic QA scenarios
+
 ## How to Run
 
 1. Clone this repo  
