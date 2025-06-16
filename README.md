@@ -39,6 +39,11 @@ Basic Java + Selenium project for automation practice.
 - Wrote a test summary report and logged errors using BufferedWriter
 - Integrated custom exceptions for input validation (e.g., InvalidTestResultException)
 
+### ✅ Day 8: Selenium Setup & First Automated Test
+- Configured Selenium WebDriver with Java and Maven
+- Ran a test that opens a browser, visits a site, and prints the page title
+- Practiced basic test execution flow and browser teardown
+
 ## How to Run
 
 1. Clone this repo  
