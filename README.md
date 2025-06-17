@@ -39,23 +39,26 @@ Basic Java + Selenium project for automation practice.
 - Wrote a test summary report and logged errors using BufferedWriter
 - Integrated custom exceptions for input validation (e.g., InvalidTestResultException)
 
-### ✅ Day 8: Selenium Setup & First Automated Test
+### ✅ Day 8-9: Selenium Setup & Locators
 - Configured Selenium WebDriver with Java and Maven
 - Ran a test that opens a browser, visits a site, and prints the page title
 - Practiced basic test execution flow and browser teardown
+- Practiced locating elements using id, name, className, and tagName 
+- Automated login on saucedemo.com
 
 ## How to Run
 
-1. Clone this repo  
-2. Set up ChromeDriver path in your system or project  
-3. Use Maven to build and run tests  
-4. Run Java classes with main methods for individual practice examples  
+1. Clone this repo
+2. Ensure ChromeDriver is installed and its path is correctly set (system environment or project config)
+3. Use Maven to build the project
+4. Run Java classes with `main()` methods for each practice topic (e.g., OOP, File I/O, Selenium tests)
+
 
 ## Next Steps
-- Selenium WebDriver commands and locators  
-- Handling waits, interactions, and alerts  
-- Building test frameworks with TestNG  
-- Real-world automation projects (DemoBlaze, SauceDemo)
+- 🔍 Advanced WebDriver commands and locator strategies
+- ⏱ Handling waits (implicit, explicit), user interactions, and alerts
+- 🧪 Creating structured test frameworks with TestNG
+- 🚧 Real-world QA automation projects (e.g., DemoBlaze, SauceDemo)
 
 ---
 
