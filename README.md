@@ -46,6 +46,21 @@ Basic Java + Selenium project for automation practice.
 - Practiced locating elements using id, name, className, and tagName 
 - Automated login on saucedemo.com
 
+### ✅ Day 10: XPath & CSS Selectors
+
+- Practiced locating elements using XPath and CSS
+- Used exact and **partial match** techniques:
+    - `contains()`, `starts-with()` in XPath
+    - `^=`, `$=`, `*=` in CSS Selectors
+
+```java
+// XPath partial match
+WebElement el = driver.findElement(By.xpath("//input[contains(@id, 'user')]"));
+
+// CSS partial match
+WebElement el = driver.findElement(By.cssSelector("input[id^='login']"));
+```
+
 ## How to Run
 
 1. Clone this repo
