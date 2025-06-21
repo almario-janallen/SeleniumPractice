@@ -1,4 +1,4 @@
-package com.selenium.practice.basics;
+package com.selenium.practice.fileio;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package com.selenium.practice.basics;
+package com.selenium.practice.collections;
 
 import java.util.ArrayList;
 

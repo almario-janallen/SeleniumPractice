@@ -1,4 +1,4 @@
-package com.selenium.practice.basics;
+package com.selenium.practice.collections;
 
 public class ExceptionDemo {
     public static void main(String[] args) {
