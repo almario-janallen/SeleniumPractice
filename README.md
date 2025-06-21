@@ -53,13 +53,13 @@ Basic Java + Selenium project for automation practice.
     - `contains()`, `starts-with()` in XPath
     - `^=`, `$=`, `*=` in CSS Selectors
 
-```java
-// XPath partial match
-WebElement el = driver.findElement(By.xpath("//input[contains(@id, 'user')]"));
-
-// CSS partial match
-WebElement el = driver.findElement(By.cssSelector("input[id^='login']"));
-```
+### ✅ Day 11: QA Login Test Suite with Result Logging
+- Created a structured test framework for verifying login scenarios on SauceDemo
+- Used Selenium WebDriver to automate login inputs and validation
+- Implemented LoginData class for test case structure
+- Added PageFunctions utility class for browser handling
+- Wrote TestLogger class to generate timestamped test reports
+- Verified success via URL match and failure via error message content
 
 ## How to Run
 
