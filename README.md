@@ -1,6 +1,14 @@
 # SeleniumPractice
 
-Basic Java + Selenium project for automation practice.
+A structured learning project focused on mastering Java and Selenium for test automation.
+This repository contains daily progress on foundational Java concepts, Selenium WebDriver automation, and real-world QA testing scenarios.
+
+### 🚀 What you'll find here:
+- Java basics, control structures, OOP, collections, and file I/O
+- Selenium automation using WebDriver, locators, waits, POM, and TestNG
+- QA-focused mini-projects (e.g., login tests, result logging, test case management)
+- Daily journal entries, code snippets, and progress logs
+- Modular code with reusable utilities and meaningful folder structure
 
 ### 🔗 Tech Stack
 - Java 17+
