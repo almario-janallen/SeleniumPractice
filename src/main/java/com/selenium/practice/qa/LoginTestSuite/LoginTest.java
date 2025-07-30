@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.selenium.practice.utils.PageFunctions;
-import com.selenium.practice.qa.LoginTestSuite.TestLogger;
 
 import java.util.ArrayList;
 
