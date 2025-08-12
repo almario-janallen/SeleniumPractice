@@ -69,6 +69,20 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Wrote TestLogger class to generate timestamped test reports
 - Verified success via URL match and failure via error message content
 
+### ✅ Day 12: Waits in Selenium
+- Explored different wait strategies: Implicit Wait, Explicit Wait, and Fluent Wait
+- Applied waits to handle dynamic page loading and element interaction timing issues
+- Used WebDriverWait and ExpectedConditions to wait for visibility, clickability, and presence of elements
+- Implemented Fluent Wait with polling intervals and ignored exceptions
+- Enhanced test stability by reducing NoSuchElementException and ElementNotInteractableException occurrences
+
+### ✅ Day 13: Working with Forms
+- Automated interactions with various form elements: dropdowns, radio buttons, checkboxes, text fields, and password inputs
+- Retrieved and validated selected options and states of form elements
+- Tested disabled and readonly fields for expected behavior when using sendKeys()
+- Worked with color pickers, date pickers, and range sliders for input validation
+- Applied Selenium actions to change element values and verify the updated states
+
 ## How to Run
 
 1. Clone this repo
