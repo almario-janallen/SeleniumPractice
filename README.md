@@ -83,6 +83,15 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Worked with color pickers, date pickers, and range sliders for input validation
 - Applied Selenium actions to change element values and verify the updated states
 
+### ✅ Day 14: SauceDemo Login Automation – Positive & Negative Tests
+- Automated login scenarios on SauceDemo covering both valid and invalid credentials
+- Implemented a single-class Java + Selenium solution with a reusable login() helper method
+- Positive test: validated successful login via URL containing /inventory.html
+- Negative test: validated error message display for invalid login attempts
+- Added step-by-step console logging for traceability of test actions
+- Ensured browser closes safely with try-finally to handle exceptions
+- Prepared code for future migration to TestNG framework and possible data-driven testing
+
 ## How to Run
 
 1. Clone this repo
