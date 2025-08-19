@@ -92,6 +92,13 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Ensured browser closes safely with try-finally to handle exceptions
 - Prepared code for future migration to TestNG framework and possible data-driven testing
 
+### ✅ Day 15: Alerts, Frames, and Windows
+- Automated handling of JavaScript alerts (accept, dismiss, and prompt with input)
+- Used explicit waits to manage delayed alerts safely
+- Practiced switching into and out of iframes to interact with embedded elements
+- Implemented multiple window handling: opened new tabs and windows, switched context, closed child windows, and returned to parent
+- Skipped DemoQA’s “New Window Message” due to DOM limitations
+
 ## How to Run
 
 1. Clone this repo
