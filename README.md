@@ -99,6 +99,15 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Implemented multiple window handling: opened new tabs and windows, switched context, closed child windows, and returned to parent
 - Skipped DemoQA’s “New Window Message” due to DOM limitations
 
+### ✅ Day 16: Advanced User Actions
+- Practiced mouse hover using moveToElement() for menus and submenus
+- Performed drag-and-drop using dragAndDrop() and alternative chaining with clickAndHold() → moveToElement() → release()
+- Automated right-click (contextClick) and double-click interactions
+- Simulated keyboard actions using keyDown(), sendKeys(), and keyUp()
+- Understood that all chained actions must be finalized with .perform()
+- Applied skills on demo websites: DemoQA (menu hover) and Herokuapp (drag-and-drop)
+
+
 ## How to Run
 
 1. Clone this repo
