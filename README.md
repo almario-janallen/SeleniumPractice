@@ -107,6 +107,13 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Understood that all chained actions must be finalized with .perform()
 - Applied skills on demo websites: DemoQA (menu hover) and Herokuapp (drag-and-drop)
 
+### ✅ Day 17: JavaScriptExecutor – Scroll & Click Mini-Project
+- Learned to cast WebDriver to JavascriptExecutor to execute JavaScript commands
+- Practiced scrolling techniques: by pixels (window.scrollBy) and scrolling into view of specific elements (scrollIntoView(true))
+- Highlighted elements dynamically for debugging using JS styles
+- Clicked elements using JavaScript when Selenium .click() was unreliable
+- Handled alert popups triggered after JS actions (e.g., Add to Cart on DemoBlaze)
+- Built a mini-project: scrolled to a product on DemoBlaze, opened it, clicked Add to Cart using JS, and verified navigation to the cart
 
 ## How to Run
 
