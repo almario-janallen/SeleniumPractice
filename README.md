@@ -121,6 +121,18 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Added post-login validations: URL check and Products page header
 - Used JavaScriptExecutor to highlight elements for debugging
 
+### ✅ Day 19: TestNG Framework Integration & Multiple Login Tests
+- Added TestNG dependency and configured Maven project
+- Created LoginTestNG class using @Test annotations for structured test execution
+- Implemented multiple login scenarios:
+  1. Valid login (standard_user)
+  2. Locked out user (locked_out_user)
+  3. Invalid password scenario
+- Used TestNG Assert statements for proper validations instead of print statements
+- Implemented @BeforeMethod and @AfterMethod for WebDriver setup and teardown
+- Added getErrorMessage() method in LoginPage for reusable error validations
+- Demonstrated separation of setup, test logic, and assertions using POM + TestNG
+
 ## How to Run
 
 1. Clone this repo

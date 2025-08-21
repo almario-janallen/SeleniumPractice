@@ -26,5 +26,7 @@ public class LoginPage {
         driver.findElement(loginButton).click();
     }
 
-
+    public String getErrorMessage() {
+        return driver.findElement(By.cssSelector("h3[data-test='error']")).getText();
+    }
 }
