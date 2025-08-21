@@ -115,6 +115,12 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Handled alert popups triggered after JS actions (e.g., Add to Cart on DemoBlaze)
 - Built a mini-project: scrolled to a product on DemoBlaze, opened it, clicked Add to Cart using JS, and verified navigation to the cart
 
+### ✅ Day 18: Page Object Model (POM)
+- Created LoginPage and InventoryPage classes with reusable locators and actions
+- Refactored LoginTest to use POM structure for better readability and maintainability
+- Added post-login validations: URL check and Products page header
+- Used JavaScriptExecutor to highlight elements for debugging
+
 ## How to Run
 
 1. Clone this repo
