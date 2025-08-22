@@ -133,6 +133,12 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Added getErrorMessage() method in LoginPage for reusable error validations
 - Demonstrated separation of setup, test logic, and assertions using POM + TestNG
 
+### ✅ Day 20: Data-Driven Testing
+- Integrated **TestNG DataProviders** to run tests with multiple data sets.
+- Added `ExcelUtils` utility using **Apache POI** to fetch test data from Excel.
+- Implemented login tests that use external Excel data (valid/invalid credentials).
+- Learned to safeguard against `NullPointerException` when handling rows.
+
 ## How to Run
 
 1. Clone this repo
