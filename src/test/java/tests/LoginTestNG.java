@@ -1,30 +1,19 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.InventoryPage;
-import utils.DriverFactory;
 import utils.ExcelUtils;
 
-public class LoginTestNG {
+import org.testng.annotations.Listeners;
+import listeners.TestListener;
 
-    WebDriver driver;
+@Listeners(TestListener.class)
+public class LoginTestNG extends BaseTest{
+
     LoginPage loginPage;
-    InventoryPage inventoryPage;
-
-    @BeforeMethod
-    public void setUp() {
-        driver = DriverFactory.getDriver();
-        driver.get("https://www.saucedemo.com");
-
-        loginPage = new LoginPage(driver);
-        inventoryPage = new InventoryPage(driver);
-    }
 
 //    @Test
 //    public void testValidLogin() throws InterruptedException {
@@ -102,26 +91,18 @@ public class LoginTestNG {
 
     @Test(dataProvider = "excelData")
     public void testLoginScenariosFromExcel(String username, String password, boolean isSuccess) {
-        LoginPage loginPage = new LoginPage(driver);
+        loginPage = new LoginPage(driver);
 
         loginPage.enterUsername(username);
         loginPage.enterPassword(password);
         loginPage.clickLoginButton();
 
         if(isSuccess) {
-            // Validate successful login
-            String currentUrl = driver.getCurrentUrl();
-            Assert.assertTrue(currentUrl.contains("inventory.html"),"Expected to land on inventory page for user: " + username);
+            Assert.assertTrue(driver.getCurrentUrl().contains("inventory.html"),"Expected to land on inventory page for user: " + username);
         } else {
             // Validate error message
             String errorMessage = loginPage.getErrorMessage();
             Assert.assertTrue(!errorMessage.isEmpty(),"Expected to see error message for user: " + username);
         }
-    }
-
-
-    @AfterMethod
-    public void tearDown() {
-        driver.quit();
     }
 }

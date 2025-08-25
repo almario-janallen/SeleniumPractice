@@ -1,0 +1,204 @@
+[2025-08-25 16:39:17] INFO  listeners.TestListener - === Test Suite Started: LockedOutUserTest ===
+[2025-08-25 16:39:17] INFO  listeners.TestListener - === Test Suite Started: InvalidLoginTest ===
+[2025-08-25 16:39:17] INFO  listeners.TestListener - === Test Suite Started: ValidLoginTest ===
+[2025-08-25 16:39:17] INFO  listeners.TestListener - === Test Suite Started: ProblemUserTest ===
+[2025-08-25 16:39:21] INFO  listeners.TestListener - 🚀 STARTING TEST: validLoginTest
+[2025-08-25 16:39:21] INFO  listeners.TestListener - 🚀 STARTING TEST: invalidLoginTest
+[2025-08-25 16:39:21] INFO  listeners.TestListener - 🚀 STARTING TEST: lockedOutUserTest
+[2025-08-25 16:39:21] INFO  listeners.TestListener - 🚀 STARTING TEST: problemUserTest
+[2025-08-25 16:39:21] INFO  listeners.TestListener - ✅ PASSED: invalidLoginTest
+[2025-08-25 16:39:21] INFO  listeners.TestListener - ✅ PASSED: validLoginTest
+[2025-08-25 16:39:21] INFO  listeners.TestListener - ✅ PASSED: lockedOutUserTest
+[2025-08-25 16:39:21] INFO  listeners.TestListener - ✅ PASSED: problemUserTest
+[2025-08-25 16:39:22] INFO  listeners.TestListener - === Test Suite Finished: LockedOutUserTest ===
+[2025-08-25 16:39:22] INFO  listeners.TestListener - === Test Suite Finished: ValidLoginTest ===
+[2025-08-25 16:39:22] INFO  listeners.TestListener - === Test Suite Finished: ProblemUserTest ===
+[2025-08-25 16:39:22] INFO  listeners.TestListener - === Test Suite Finished: InvalidLoginTest ===
+[2025-08-25 16:41:28] INFO  listeners.TestListener - === Test Suite Started: SeleniumPractice ===
+[2025-08-25 16:41:30] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:41:30] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:41:32] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:41:32] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:41:33] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:41:34] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:41:34] INFO  listeners.TestListener - === Test Suite Finished: SeleniumPractice ===
+[2025-08-25 16:42:40] INFO  listeners.TestListener - === Test Suite Started: SeleniumPractice ===
+[2025-08-25 16:42:42] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:42:42] ERROR listeners.TestListener - ❌ FAILED: testLoginScenariosFromExcel
+java.lang.AssertionError: Expected to land on inventory page for user: standard_user expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.LoginTestNG.testLoginScenariosFromExcel(LoginTestNG.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2025-08-25 16:42:44] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:42:44] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:42:45] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:42:46] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:42:46] INFO  listeners.TestListener - === Test Suite Finished: SeleniumPractice ===
+[2025-08-25 16:43:08] INFO  listeners.TestListener - === Test Suite Started: SeleniumPractice ===
+[2025-08-25 16:43:11] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:43:11] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:43:12] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:43:13] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:43:14] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 16:43:14] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 16:43:15] INFO  listeners.TestListener - === Test Suite Finished: SeleniumPractice ===
+[2025-08-25 16:53:24] INFO  listeners.TestListener - === Test Suite Started: ProblemUserTest ===
+[2025-08-25 16:53:24] INFO  listeners.TestListener - === Test Suite Started: LockedOutUserTest ===
+[2025-08-25 16:53:24] INFO  listeners.TestListener - === Test Suite Started: ValidLoginTest ===
+[2025-08-25 16:53:24] INFO  listeners.TestListener - === Test Suite Started: InvalidLoginTest ===
+[2025-08-25 16:53:26] INFO  listeners.TestListener - 🚀 STARTING TEST: validLoginTest
+[2025-08-25 16:53:26] INFO  listeners.TestListener - 🚀 STARTING TEST: problemUserTest
+[2025-08-25 16:53:26] INFO  listeners.TestListener - 🚀 STARTING TEST: lockedOutUserTest
+[2025-08-25 16:53:27] INFO  listeners.TestListener - ✅ PASSED: lockedOutUserTest
+[2025-08-25 16:53:27] INFO  listeners.TestListener - 🚀 STARTING TEST: invalidLoginTest
+[2025-08-25 16:53:27] INFO  listeners.TestListener - ✅ PASSED: validLoginTest
+[2025-08-25 16:53:27] INFO  listeners.TestListener - ✅ PASSED: problemUserTest
+[2025-08-25 16:53:27] INFO  listeners.TestListener - ✅ PASSED: invalidLoginTest
+[2025-08-25 16:53:28] INFO  listeners.TestListener - === Test Suite Finished: LockedOutUserTest ===
+[2025-08-25 16:53:28] INFO  listeners.TestListener - === Test Suite Finished: ValidLoginTest ===
+[2025-08-25 16:53:28] INFO  listeners.TestListener - === Test Suite Finished: ProblemUserTest ===
+[2025-08-25 16:53:28] INFO  listeners.TestListener - === Test Suite Finished: InvalidLoginTest ===
+[2025-08-25 17:00:06] INFO  listeners.TestListener - === Test Suite Started: SeleniumPractice ===
+[2025-08-25 17:00:08] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:00:08] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:00:10] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:00:10] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:00:11] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:00:12] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:00:12] INFO  listeners.TestListener - === Test Suite Finished: SeleniumPractice ===
+[2025-08-25 17:06:22] INFO  listeners.TestListener - === Test Suite Started: SeleniumPractice ===
+[2025-08-25 17:06:25] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:06:25] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:06:27] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:06:27] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:06:28] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:06:28] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:06:29] INFO  listeners.TestListener - === Test Suite Finished: SeleniumPractice ===
+[2025-08-25 17:23:55] INFO  listeners.TestListener - === Test Suite Started: SeleniumPractice ===
+[2025-08-25 17:23:57] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:23:57] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:23:57] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/testLoginScenariosFromExcel_20250825_172357.png
+[2025-08-25 17:23:58] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:23:59] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:23:59] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/testLoginScenariosFromExcel_20250825_172359.png
+[2025-08-25 17:24:00] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:24:00] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:24:01] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/testLoginScenariosFromExcel_20250825_172400.png
+[2025-08-25 17:24:01] INFO  listeners.TestListener - === Test Suite Finished: SeleniumPractice ===
+[2025-08-25 17:25:18] INFO  listeners.TestListener - === Test Suite Started: LockedOutUserTest ===
+[2025-08-25 17:25:18] INFO  listeners.TestListener - === Test Suite Started: ValidLoginTest ===
+[2025-08-25 17:25:18] INFO  listeners.TestListener - === Test Suite Started: InvalidLoginTest ===
+[2025-08-25 17:25:18] INFO  listeners.TestListener - === Test Suite Started: ProblemUserTest ===
+[2025-08-25 17:25:20] INFO  listeners.TestListener - 🚀 STARTING TEST: problemUserTest
+[2025-08-25 17:25:20] INFO  listeners.TestListener - 🚀 STARTING TEST: lockedOutUserTest
+[2025-08-25 17:25:20] INFO  listeners.TestListener - 🚀 STARTING TEST: validLoginTest
+[2025-08-25 17:25:20] INFO  listeners.TestListener - 🚀 STARTING TEST: invalidLoginTest
+[2025-08-25 17:25:20] INFO  listeners.TestListener - ✅ PASSED: problemUserTest
+[2025-08-25 17:25:20] INFO  listeners.TestListener - ✅ PASSED: lockedOutUserTest
+[2025-08-25 17:25:21] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/lockedOutUserTest_20250825_172520.png
+[2025-08-25 17:25:21] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/problemUserTest_20250825_172520.png
+[2025-08-25 17:25:21] INFO  listeners.TestListener - ✅ PASSED: invalidLoginTest
+[2025-08-25 17:25:21] INFO  listeners.TestListener - ✅ PASSED: validLoginTest
+[2025-08-25 17:25:21] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/invalidLoginTest_20250825_172521.png
+[2025-08-25 17:25:21] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/validLoginTest_20250825_172521.png
+[2025-08-25 17:25:21] INFO  listeners.TestListener - === Test Suite Finished: ProblemUserTest ===
+[2025-08-25 17:25:21] INFO  listeners.TestListener - === Test Suite Finished: LockedOutUserTest ===
+[2025-08-25 17:25:21] INFO  listeners.TestListener - === Test Suite Finished: InvalidLoginTest ===
+[2025-08-25 17:25:21] INFO  listeners.TestListener - === Test Suite Finished: ValidLoginTest ===
+[2025-08-25 17:27:05] INFO  listeners.TestListener - === Test Suite Started: LockedOutUserTest ===
+[2025-08-25 17:27:05] INFO  listeners.TestListener - === Test Suite Started: InvalidLoginTest ===
+[2025-08-25 17:27:05] INFO  listeners.TestListener - === Test Suite Started: ValidLoginTest ===
+[2025-08-25 17:27:05] INFO  listeners.TestListener - === Test Suite Started: ProblemUserTest ===
+[2025-08-25 17:27:07] INFO  listeners.TestListener - 🚀 STARTING TEST: lockedOutUserTest
+[2025-08-25 17:27:07] INFO  listeners.TestListener - ✅ PASSED: lockedOutUserTest
+[2025-08-25 17:27:07] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172707lockedOutUserTest_.png
+[2025-08-25 17:27:07] INFO  listeners.TestListener - 🚀 STARTING TEST: invalidLoginTest
+[2025-08-25 17:27:07] INFO  listeners.TestListener - 🚀 STARTING TEST: validLoginTest
+[2025-08-25 17:27:07] INFO  listeners.TestListener - ✅ PASSED: invalidLoginTest
+[2025-08-25 17:27:07] INFO  listeners.TestListener - ✅ PASSED: validLoginTest
+[2025-08-25 17:27:07] INFO  listeners.TestListener - === Test Suite Finished: LockedOutUserTest ===
+[2025-08-25 17:27:07] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172707invalidLoginTest_.png
+[2025-08-25 17:27:07] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172707validLoginTest_.png
+[2025-08-25 17:27:07] INFO  listeners.TestListener - 🚀 STARTING TEST: problemUserTest
+[2025-08-25 17:27:07] INFO  listeners.TestListener - === Test Suite Finished: InvalidLoginTest ===
+[2025-08-25 17:27:08] INFO  listeners.TestListener - ✅ PASSED: problemUserTest
+[2025-08-25 17:27:08] INFO  listeners.TestListener - === Test Suite Finished: ValidLoginTest ===
+[2025-08-25 17:27:08] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172708problemUserTest_.png
+[2025-08-25 17:27:08] INFO  listeners.TestListener - === Test Suite Finished: ProblemUserTest ===
+[2025-08-25 17:27:34] INFO  listeners.TestListener - === Test Suite Started: InvalidLoginTest ===
+[2025-08-25 17:27:34] INFO  listeners.TestListener - === Test Suite Started: LockedOutUserTest ===
+[2025-08-25 17:27:34] INFO  listeners.TestListener - === Test Suite Started: ValidLoginTest ===
+[2025-08-25 17:27:34] INFO  listeners.TestListener - === Test Suite Started: ProblemUserTest ===
+[2025-08-25 17:27:36] INFO  listeners.TestListener - 🚀 STARTING TEST: problemUserTest
+[2025-08-25 17:27:36] INFO  listeners.TestListener - 🚀 STARTING TEST: invalidLoginTest
+[2025-08-25 17:27:36] INFO  listeners.TestListener - 🚀 STARTING TEST: lockedOutUserTest
+[2025-08-25 17:27:36] INFO  listeners.TestListener - 🚀 STARTING TEST: validLoginTest
+[2025-08-25 17:27:36] INFO  listeners.TestListener - ✅ PASSED: invalidLoginTest
+[2025-08-25 17:27:36] INFO  listeners.TestListener - ✅ PASSED: problemUserTest
+[2025-08-25 17:27:36] INFO  listeners.TestListener - ✅ PASSED: lockedOutUserTest
+[2025-08-25 17:27:37] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172736_invalidLoginTest.png
+[2025-08-25 17:27:37] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172736_lockedOutUserTest.png
+[2025-08-25 17:27:37] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172736_problemUserTest.png
+[2025-08-25 17:27:37] INFO  listeners.TestListener - ✅ PASSED: validLoginTest
+[2025-08-25 17:27:37] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172737_validLoginTest.png
+[2025-08-25 17:27:37] INFO  listeners.TestListener - === Test Suite Finished: InvalidLoginTest ===
+[2025-08-25 17:27:37] INFO  listeners.TestListener - === Test Suite Finished: LockedOutUserTest ===
+[2025-08-25 17:27:37] INFO  listeners.TestListener - === Test Suite Finished: ProblemUserTest ===
+[2025-08-25 17:27:37] INFO  listeners.TestListener - === Test Suite Finished: ValidLoginTest ===
+[2025-08-25 17:27:51] INFO  listeners.TestListener - === Test Suite Started: SeleniumPractice ===
+[2025-08-25 17:27:53] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:27:53] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:27:53] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172753_testLoginScenariosFromExcel.png
+[2025-08-25 17:27:55] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:27:55] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:27:55] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172755_testLoginScenariosFromExcel.png
+[2025-08-25 17:27:57] INFO  listeners.TestListener - 🚀 STARTING TEST: testLoginScenariosFromExcel
+[2025-08-25 17:27:57] INFO  listeners.TestListener - ✅ PASSED: testLoginScenariosFromExcel
+[2025-08-25 17:27:57] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172757_testLoginScenariosFromExcel.png
+[2025-08-25 17:27:57] INFO  listeners.TestListener - === Test Suite Finished: SeleniumPractice ===
+[2025-08-25 17:28:14] INFO  listeners.TestListener - === Test Suite Started: ValidLoginTest ===
+[2025-08-25 17:28:14] INFO  listeners.TestListener - === Test Suite Started: InvalidLoginTest ===
+[2025-08-25 17:28:14] INFO  listeners.TestListener - === Test Suite Started: ProblemUserTest ===
+[2025-08-25 17:28:14] INFO  listeners.TestListener - === Test Suite Started: LockedOutUserTest ===
+[2025-08-25 17:28:16] INFO  listeners.TestListener - 🚀 STARTING TEST: invalidLoginTest
+[2025-08-25 17:28:16] INFO  listeners.TestListener - 🚀 STARTING TEST: lockedOutUserTest
+[2025-08-25 17:28:17] INFO  listeners.TestListener - ✅ PASSED: invalidLoginTest
+[2025-08-25 17:28:17] INFO  listeners.TestListener - 🚀 STARTING TEST: validLoginTest
+[2025-08-25 17:28:17] INFO  listeners.TestListener - ✅ PASSED: lockedOutUserTest
+[2025-08-25 17:28:17] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172817_invalidLoginTest.png
+[2025-08-25 17:28:17] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172817_lockedOutUserTest.png
+[2025-08-25 17:28:17] INFO  listeners.TestListener - ✅ PASSED: validLoginTest
+[2025-08-25 17:28:17] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172817_validLoginTest.png
+[2025-08-25 17:28:17] INFO  listeners.TestListener - 🚀 STARTING TEST: problemUserTest
+[2025-08-25 17:28:17] INFO  listeners.TestListener - ✅ PASSED: problemUserTest
+[2025-08-25 17:28:17] INFO  listeners.TestListener - 📸 Screenshot saved at: screenshots/success/20250825_172817_problemUserTest.png
+[2025-08-25 17:28:18] INFO  listeners.TestListener - === Test Suite Finished: ProblemUserTest ===
+[2025-08-25 17:28:18] INFO  listeners.TestListener - === Test Suite Finished: ValidLoginTest ===
+[2025-08-25 17:28:18] INFO  listeners.TestListener - === Test Suite Finished: LockedOutUserTest ===
+[2025-08-25 17:28:18] INFO  listeners.TestListener - === Test Suite Finished: InvalidLoginTest ===

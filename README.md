@@ -149,6 +149,16 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Learned that parallel="tests" is more reliable than parallel="methods" for fully independent test flows, avoiding data:. pages or session conflicts.
 - Outcome: 4 browsers opened simultaneously, each executing a login test independently, with screenshots captured for each scenario.
 
+### ✅ Day 22: Logging & Screenshot Integration
+- Integrated Log4j for structured logging during test execution.
+- Implemented ScreenshotUtil to capture screenshots per test status:
+  1. success → screenshots/success
+  2. failure → screenshots/failure 
+  3. skipped → screenshots/skipped
+- Updated TestListener to automatically capture screenshots and log paths for all test results.
+- Refactored tests (BaseTest + test classes) to remove manual screenshot calls.
+- Achieved clean logs + visual evidence for both successful and failed tests.
+
 ## How to Run
 
 1. Clone this repo
