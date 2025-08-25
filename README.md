@@ -139,6 +139,16 @@ This repository contains daily progress on foundational Java concepts, Selenium 
 - Implemented login tests that use external Excel data (valid/invalid credentials).
 - Learned to safeguard against `NullPointerException` when handling rows.
 
+### ✅ Day 21: Parallel Execution with TestNG
+- Explored parallel execution in TestNG using <suite> XML configuration.
+- Configured parallel="tests" with thread-count="4" to run multiple login tests simultaneously.
+- Each login scenario (validLogin, invalidLogin, lockedOutUser, problemUser) runs in its own Chrome browser, ensuring session isolation.
+- Used ThreadLocal WebDriver to manage separate browser instances per test.
+- Added unique screenshots for each test method using timestamps to verify actions before login.
+- Explicit waits used to ensure elements (inventory container, error messages) are visible before assertions.
+- Learned that parallel="tests" is more reliable than parallel="methods" for fully independent test flows, avoiding data:. pages or session conflicts.
+- Outcome: 4 browsers opened simultaneously, each executing a login test independently, with screenshots captured for each scenario.
+
 ## How to Run
 
 1. Clone this repo

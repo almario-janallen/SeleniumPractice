@@ -1,6 +1,5 @@
 package tests;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import pages.InventoryPage;
 import pages.LoginPage;
@@ -10,8 +9,6 @@ public class LoginTest {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = DriverFactory.getDriver();
         driver.get("https://www.saucedemo.com");
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         // Create LoginPage object
         LoginPage loginPage = new LoginPage(driver);
